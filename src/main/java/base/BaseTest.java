@@ -36,9 +36,7 @@ public class BaseTest {
                     webDriver = new EdgeDriver();
                     break;
                 default:
-                    ChromeOptions options = new ChromeOptions();
-                    options.addArguments("--headless=new");
-                    webDriver = new ChromeDriver(options);
+                    webDriver = new ChromeDriver();
             }
         }
 
