@@ -36,7 +36,9 @@ public class BaseTest {
                     webDriver = new EdgeDriver();
                     break;
                 default:
-                    webDriver = new ChromeDriver();
+                    ChromeOptions options = new ChromeOptions();
+                    options.addArguments("--start-maximized");
+                    webDriver = new ChromeDriver(options);
             }
         }
 
