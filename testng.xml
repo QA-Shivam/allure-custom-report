@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Automation Suite">
+    <listeners>
+        <listener class-name="listner.AllureTestListener"/>
+    </listeners>
+
+    <test name="Google Test">
+        <classes>
+            <class name="tests.GoogleTest"/>
+        </classes>
+    </test>
+</suite>
