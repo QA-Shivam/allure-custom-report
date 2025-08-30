@@ -153,7 +153,10 @@ public class AllureTestListener implements ITestListener {
 
                     // Auto open in browser
                     if (Desktop.isDesktopSupported()) {
-                        Desktop.getDesktop().browse(finalReport.toURI());
+                        try {
+                            Desktop.getDesktop().browse(finalReport.toURI());
+                        }catch (Exception e){
+                        }
                     }
 
                 } else {
