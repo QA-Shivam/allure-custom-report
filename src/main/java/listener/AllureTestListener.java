@@ -1,4 +1,4 @@
-package listner;
+package listener;
 
 import io.qameta.allure.Allure;
 import io.qameta.allure.Attachment;
