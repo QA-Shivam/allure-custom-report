@@ -37,7 +37,7 @@ public class BaseTest {
                     break;
                 default:
                     ChromeOptions options = new ChromeOptions();
-                    options.addArguments("--start-maximized");
+                    options.addArguments("--headless=new");
                     webDriver = new ChromeDriver(options);
             }
         }
