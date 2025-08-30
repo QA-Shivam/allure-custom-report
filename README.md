@@ -155,7 +155,7 @@ src/
 
 ## Customization
 
-- **Logo & Animation**:  
+- **Logo, Footer & Animation**:  
   Customize `index.js` and `style.css` for your branding and effects.
 - **Favicon**:  
   Set `allure.report.favicon` to a Base64 data URL in `allure.properties`.
