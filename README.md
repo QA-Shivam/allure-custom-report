@@ -172,6 +172,4 @@ src/
 
 ---
 
-## License
-
-MIT
+**Happy Testing!**
